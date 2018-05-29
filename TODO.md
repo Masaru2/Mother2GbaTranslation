@@ -1,5 +1,5 @@
 ### M2 - non-script things
-- [ ] Translate dad text
+- [X] Translate dad text
 - [X] Translate enemy names
 - [X] Translate item names
 - [ ] Translate menu choices
@@ -10,16 +10,16 @@
 
 ### M2 - main script
 - [X] Produce blank skeleton for main script (all strings in the game point to "@Test")
-- [ ] Translate battle actions
+- [X] Translate battle actions
   - [ ] Add pronoun control codes
 - [X] Translate PSI help text
 - [ ] Translate item help text
-- [ ] Translate TPT text
+- [X] Translate TPT text
 - [ ] Translate object text (doors, etc.)
-- [ ] Translate phone text
-- [ ] Translate dad text
+- [X] Translate phone text
+- [X] Translate dad text
 - [ ] Translate prayer text
-- [ ] Translate enemy encounter/death text
+- [X] Translate enemy encounter/death text
 - [ ] Translate Lumine Hall text
 
 ### M2 - main script tool
