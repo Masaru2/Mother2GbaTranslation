@@ -725,11 +725,11 @@ void text_flavour_setup(char String[], int selector)
     int index = 0;
     char Text_Flavour_1[] = "Which style of windows";
     char Text_Flavour_2[] = "do you prefer?";
-    char Plain[] = "Plain flavor";
-    char Mint[] = "Mint flavor";
-    char Strawberry[] = "Strawberry flavor";
-    char Banana[] = "Banana flavor";
-    char Peanut[] = "Peanut flavor";
+    char Plain[] = "Plain";
+    char Mint[] = "Mint";
+    char Strawberry[] = "Strawberry";
+    char Banana[] = "Banana";
+    char Peanut[] = "Peanut";
     switch(selector)
     {
         case 0:
