@@ -21,37 +21,37 @@
       "Index": 1,
       "OldPointer": 11647267,
       "Old": "PK[00 FF]",
-      "New": "PSI [00 FF]"
+      "New": "PK [00 FF]"
     },
     {
       "Index": 2,
       "OldPointer": 11647280,
       "Old": "PKファイアー[00 FF]",
-      "New": "PSI Fire[00 FF]"
+      "New": "PK Fire[00 FF]"
     },
     {
       "Index": 3,
       "OldPointer": 11647293,
       "Old": "PKフリーズ[00 FF]",
-      "New": "PSI Freeze[00 FF]"
+      "New": "PK Freeze[00 FF]"
     },
     {
       "Index": 4,
       "OldPointer": 11647306,
       "Old": "PKサンダー[00 FF]",
-      "New": "PSI Thunder[00 FF]"
+      "New": "PK Thunder[00 FF]"
     },
     {
       "Index": 5,
       "OldPointer": 11647319,
       "Old": "PKフラッシュ[00 FF]",
-      "New": "PSI Flash[00 FF]"
+      "New": "PK Flash[00 FF]"
     },
     {
       "Index": 6,
       "OldPointer": 11647332,
       "Old": "PKスターストーム[00 FF]",
-      "New": "PSI Starstorm[00 FF]"
+      "New": "PK Starstorm[00 FF]"
     },
     {
       "Index": 7,

@@ -14,7 +14,7 @@
       "OffsetLocation": 11637956,
       "OldPointer": 11633495,
       "Old": "PK[12 FF][00 FF]",
-      "New": "PSI [12 FF][00 FF]"
+      "New": "PK [12 FF][00 FF]"
     },
     {
       "Index": 2,
@@ -49,7 +49,7 @@
       "OffsetLocation": 11637976,
       "OldPointer": 11633537,
       "Old": "PKファイアー[00 FF]",
-      "New": "PSI Fire[00 FF]"
+      "New": "PK Fire[00 FF]"
     },
     {
       "Index": 7,
@@ -84,7 +84,7 @@
       "OffsetLocation": 11637996,
       "OldPointer": 11633582,
       "Old": "PKフリーズ[00 FF]",
-      "New": "PSI Freeze[00 FF]"
+      "New": "PK Freeze[00 FF]"
     },
     {
       "Index": 12,
@@ -119,7 +119,7 @@
       "OffsetLocation": 11638016,
       "OldPointer": 11633626,
       "Old": "PKサンダー[00 FF]",
-      "New": "PSI Thunder[00 FF]"
+      "New": "PK Thunder[00 FF]"
     },
     {
       "Index": 17,
@@ -154,7 +154,7 @@
       "OffsetLocation": 11638036,
       "OldPointer": 11633670,
       "Old": "PKフラッシュ[00 FF]",
-      "New": "PSI Flash[00 FF]"
+      "New": "PK Flash[00 FF]"
     },
     {
       "Index": 22,
@@ -189,7 +189,7 @@
       "OffsetLocation": 11638056,
       "OldPointer": 11633715,
       "Old": "PKスターストーム[00 FF]",
-      "New": "PSI Starstorm[00 FF]"
+      "New": "PK Starstorm[00 FF]"
     },
     {
       "Index": 27,
