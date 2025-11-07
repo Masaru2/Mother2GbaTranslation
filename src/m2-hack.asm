@@ -1567,9 +1567,6 @@ nop
 //---------------------------------------------------------
 // Movement code hacks
 //---------------------------------------------------------
-// Censor the spanking sound in Pokey's house
-.org 0x8027BCB :: db 70 // Add 30 extra frames before the sound plays
-.org 0x8027BD1 :: dh 84 // Replace sound effect
 
 // Carpainter's timing fix
 .org 0x802A75F :: db 0x30 //Add 8 extra frames before the game can start reading again.
@@ -1760,9 +1757,6 @@ nop
 
 //Repoint cast graphical data
 .org m2_cast_roll_pointers :: dw m2_cast_graphics :: dw m2_cast_palette :: dw m2_cast_arrangements
-
-//Remove flavour changing the palette
-.org 0x8010426 :: bl prevent_cast_changed_palettes
 
 //Cast Roll VWF
 .org 0x800F640 :: bl writeCastText
