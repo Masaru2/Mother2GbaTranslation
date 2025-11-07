@@ -1972,7 +1972,7 @@ void printCashWindow()
 
 void eb_cartridge_palette_change(bool background)
 {
-    unsigned short *paletteDest = (unsigned short*)0x5000040;
+   /* unsigned short *paletteDest = (unsigned short*)0x5000040;
     if(background)
     {
         if(BUILD_PALETTE)
@@ -1988,7 +1988,7 @@ void eb_cartridge_palette_change(bool background)
             cpuset(m12_cartridge_palettes_dimmed, paletteDest, 0x50);
     }
     else
-        cpuset(&m12_cartridge_palettes[0x20], paletteDest, 0x50);
+        cpuset(&m12_cartridge_palettes[0x20], paletteDest, 0x50); */
 }
 
 // x, y, width: tile coordinates

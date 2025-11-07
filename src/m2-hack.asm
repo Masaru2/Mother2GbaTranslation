@@ -1789,24 +1789,24 @@ nop
 // M2 Title hacks
 //==============================================================================
 
-.definelabel m2_title_sequence_00, 0x80117E0
-.definelabel m2_title_sequence_01, 0x8011802
-.definelabel m2_title_sequence_02, 0x801182A
-.definelabel m2_title_sequence_03, 0x8011858
-.definelabel m2_title_sequence_04, 0x80118FA
-.definelabel m2_title_sequence_05, 0x80118FE
-.definelabel m2_title_sequence_06, 0x801195C
-.definelabel m2_title_sequence_07, 0x8011972
-.definelabel m2_title_sequence_08, 0x80119BA
-.definelabel m2_title_sequence_09, 0x80119DE
-.definelabel m2_title_sequence_0A, 0x8011A02
-.definelabel m2_title_sequence_0B, 0x8011A1A
-.definelabel m2_title_sequence_0C, 0x8011A80
-.definelabel m2_title_sequence_0D, 0x8011A8A
-.definelabel m2_title_sequence_0E, 0x8011AAA
-.definelabel m2_title_sequence_0F, 0x8011B58
-.definelabel m2_title_sequence_10, 0x8011B66
-.definelabel m2_title_sequence_11, 0x8011B76
+//.definelabel m2_title_sequence_00, 0x80117E0
+//.definelabel m2_title_sequence_01, 0x8011802
+//.definelabel m2_title_sequence_02, 0x801182A
+//.definelabel m2_title_sequence_03, 0x8011858
+//.definelabel m2_title_sequence_04, 0x80118FA
+//.definelabel m2_title_sequence_05, 0x80118FE
+//.definelabel m2_title_sequence_06, 0x801195C
+//.definelabel m2_title_sequence_07, 0x8011972
+//.definelabel m2_title_sequence_08, 0x80119BA
+//.definelabel m2_title_sequence_09, 0x80119DE
+//.definelabel m2_title_sequence_0A, 0x8011A02
+//.definelabel m2_title_sequence_0B, 0x8011A1A
+//.definelabel m2_title_sequence_0C, 0x8011A80
+//.definelabel m2_title_sequence_0D, 0x8011A8A
+//.definelabel m2_title_sequence_0E, 0x8011AAA
+//.definelabel m2_title_sequence_0F, 0x8011B58
+//.definelabel m2_title_sequence_10, 0x8011B66
+//.definelabel m2_title_sequence_11, 0x8011B76
 
 // m2_title_background_pal_copyright:   File has two palettes separated by six palettes
 //                                      worth of nullspace. First palette is the copyright palette,
@@ -1848,162 +1848,162 @@ nop
 // g+30     2           17/32 grey B
 
 // --- Animation 3 (full title screen) ---
-.org 0x82D6B64 :: dh 0x008A   // Enable 8-bit BG0
+//.org 0x82D6B64 :: dh 0x008A   // Enable 8-bit BG0
 
 // Initializer hacks:
 
     // Point to new compressed palettes
-    .org 0x801147C
-    dw m2_title_text_pal_animated + 4
-    dw m2_title_text_pal_static + 4
-    dw m2_title_background_pal_copyright + 4
-    dw m2_title_background_pal_glow + 4
+   //.org 0x801147C
+   //dw m2_title_text_pal_animated + 4
+   //dw m2_title_text_pal_static + 4
+   //dw m2_title_background_pal_copyright + 4
+   //dw m2_title_background_pal_glow + 4
 
     // The new palettes have different sizes (8, 20, 14, 1 palettes respectively), so encode the proper buffer pointers
-    .org 0x801146C
-    dw 0x2011500
-    dw 0x2011780
-    dw 0x2011940
-    dw 0x2011960
+   //.org 0x801146C
+   //dw 0x2011500
+   //dw 0x2011780
+   //dw 0x2011940
+   //dw 0x2011960
 
     // Expand the null area after the fifth palette buffer (gives us 0x2A0 bytes of nullspace
     // starting at 0x2011B60)
-    .org 0x8011490 :: dw 0x85000128
+   //.org 0x8011490 :: dw 0x85000128
 
     // Define the proper expected uncompressed sizes
-    .org 0x801141E :: mov r5,4 :: neg r5,r5
-    .org 0x8011422 :: ldr r2,[r0,r5]
-    .org 0x801142C :: ldr r2,[r0,r5]
-    .org 0x8011436 :: ldr r2,[r0,r5]
-    .org 0x8011440 :: ldr r2,[r0,r5]
+   //.org 0x801141E :: mov r5,4 :: neg r5,r5
+   //.org 0x8011422 :: ldr r2,[r0,r5]
+   //.org 0x801142C :: ldr r2,[r0,r5]
+   //.org 0x8011436 :: ldr r2,[r0,r5]
+   //.org 0x8011440 :: ldr r2,[r0,r5]
 
     // Point to custom initializer routine
-    .org 0x82D6B78 :: dw title_initializer + 1
+   //.org 0x82D6B78 :: dw title_initializer + 1
 
 // Setup hacks:
 
     // Fade BG0 instead of OBJ
-    .org 0x80117E6 :: mov r0,0xC1
+   //.org 0x80117E6 :: mov r0,0xC1
 
     // Point to sequence hacks
-    .org 0x8011798 :: dw title_sequence_00
-    .org 0x801179C :: dw title_sequence_01
-    .org 0x80117A4 :: dw title_sequence_03
-    .org 0x80117A8 :: dw title_sequence_04
-    .org 0x80117AC :: dw title_sequence_05
-    .org 0x80117B4 :: dw title_sequence_07
-    .org 0x80117B8 :: dw title_sequence_08
-    .org 0x80117BC :: dw title_sequence_09
-    .org 0x80117C4 :: dw title_sequence_0B
-    .org 0x80117C8 :: dw title_sequence_0C
-    .org 0x80117CC :: dw title_sequence_0D
-    .org 0x80117D0 :: dw title_sequence_0D
-    .org 0x80117D4 :: dw title_sequence_0D
-    .org 0x80117D8 :: dw title_sequence_0D
+   //.org 0x8011798 :: dw title_sequence_00
+   //.org 0x801179C :: dw title_sequence_01
+   //.org 0x80117A4 :: dw title_sequence_03
+   //.org 0x80117A8 :: dw title_sequence_04
+   //.org 0x80117AC :: dw title_sequence_05
+   //.org 0x80117B4 :: dw title_sequence_07
+   //.org 0x80117B8 :: dw title_sequence_08
+   //.org 0x80117BC :: dw title_sequence_09
+   //.org 0x80117C4 :: dw title_sequence_0B
+   //.org 0x80117C8 :: dw title_sequence_0C
+   //.org 0x80117CC :: dw title_sequence_0D
+   //.org 0x80117D0 :: dw title_sequence_0D
+   //.org 0x80117D4 :: dw title_sequence_0D
+   //.org 0x80117D8 :: dw title_sequence_0D
 
     // Clamp initial X values for text
-    .org 0x80116F0 :: bl title_setup_clamp
+   //.org 0x80116F0 :: bl title_setup_clamp
 
     // Show all eight text sprites from the start
-    .org 0x8011B94 :: mov r6,8
-    .org 0x8011BAC :: b 0x8011BDC
+   //.org 0x8011B94 :: mov r6,8
+   //.org 0x8011BAC :: b 0x8011BDC
 
     // Allocate space for nine sprites
-    .org 0x80113F8 :: mov r0,0xC8
-    .org 0x80115B2 :: add sp,-0xA4
-    .org 0x8011BE6 :: add sp,0xA4
+   //.org 0x80113F8 :: mov r0,0xC8
+   //.org 0x80115B2 :: add sp,-0xA4
+   //.org 0x8011BE6 :: add sp,0xA4
 
-    .org 0x80115CC
-    ldmia   [r0]!,r2,r4,r7
-    stmia   [r1]!,r2,r4,r7
-    add     r6,sp,0x30
+   //.org 0x80115CC
+   //ldmia   [r0]!,r2,r4,r7
+   //stmia   [r1]!,r2,r4,r7
+   //add     r6,sp,0x30
 
-    .org 0x80115DE
-    ldmia   [r0]!,r2,r4,r7
-    stmia   [r1]!,r2,r4,r7
-    add     r5,sp,0x54
+   //.org 0x80115DE
+   //ldmia   [r0]!,r2,r4,r7
+   //stmia   [r1]!,r2,r4,r7
+   //add     r5,sp,0x54
 
-    .org 0x80115F0
-    ldmia   [r0]!,r2,r4,r7
-    stmia   [r1]!,r2,r4,r7
-    add     r4,sp,0x78
+   //.org 0x80115F0
+   //ldmia   [r0]!,r2,r4,r7
+   //stmia   [r1]!,r2,r4,r7
+   //add     r4,sp,0x78
 
-    .org 0x8011602
-    ldmia   [r0]!,r2,r3,r7
-    stmia   [r1]!,r2,r3,r7
+   //.org 0x8011602
+   //ldmia   [r0]!,r2,r3,r7
+   //stmia   [r1]!,r2,r3,r7
 
-    .org 0x8011646 :: ldr r1,[sp,0x5C]
-    .org 0x801166A :: add r1,0x60 :: str r1,[sp,0x9C]
-    .org 0x8011670 :: add r2,0x84 :: str r2,[sp,0xA0]
-    .org 0x8011686 :: ldr r0,[sp,0xA0]
-    .org 0x801168A :: str r0,[sp,0xA0] :: ldr r2,[sp,0x9C]
-    .org 0x8011690 :: str r2,[sp,0x9C]
-    .org 0x80116CC :: add r7,sp,0x30
-    .org 0x80116D0 :: add r7,sp,0x78
-    .org 0x8011704 :: cmp r6,8
+   //.org 0x8011646 :: ldr r1,[sp,0x5C]
+   //.org 0x801166A :: add r1,0x60 :: str r1,[sp,0x9C]
+   //.org 0x8011670 :: add r2,0x84 :: str r2,[sp,0xA0]
+   //.org 0x8011686 :: ldr r0,[sp,0xA0]
+   //.org 0x801168A :: str r0,[sp,0xA0] :: ldr r2,[sp,0x9C]
+   //.org 0x8011690 :: str r2,[sp,0x9C]
+   //.org 0x80116CC :: add r7,sp,0x30
+   //.org 0x80116D0 :: add r7,sp,0x78
+   //.org 0x8011704 :: cmp r6,8
 
     // Relocate stuff from after the sprite data
-    .org 0x8011634 :: mov r1,0xB2
-    .org 0x8011640 :: mov r2,0xC2
-    .org 0x801164E :: mov r1,0xBE
-    .org 0x801165C :: mov r7,0xC2
-    .org 0x8011662 :: mov r5,0xC3
-    .org 0x8011674 :: mov r3,0xB2
-    .org 0x801167C :: mov r4,0xB3
-    .org 0x8011696 :: mov r0,0xBE
-    .org 0x8011838 :: mov r1,0xB6
+   //.org 0x8011634 :: mov r1,0xB2
+   //.org 0x8011640 :: mov r2,0xC2
+   //.org 0x801164E :: mov r1,0xBE
+   //.org 0x801165C :: mov r7,0xC2
+   //.org 0x8011662 :: mov r5,0xC3
+   //.org 0x8011674 :: mov r3,0xB2
+   //.org 0x801167C :: mov r4,0xB3
+   //.org 0x8011696 :: mov r0,0xBE
+   //.org 0x8011838 :: mov r1,0xB6
 
 // Commit hacks:
 
     // Commit all things on every sequence
-    .org 0x8011500 :: b 0x8011516
+   //.org 0x8011500 :: b 0x8011516
 
 // --- Animation 5 (quick title screen) ---
-.org 0x82D6BD4 :: dh 0x008A   // Enable 8-bit BG0
-.org 0x82D6BE0 :: dh 0x1100   // Disable BG1
-.org 0x82D6BC8 :: dw m2_title_quick_background_pal
-.org 0x82D6BCC :: dw m2_title_quick_foreground_pal
+//.org 0x82D6BD4 :: dh 0x008A   // Enable 8-bit BG0
+//.org 0x82D6BE0 :: dh 0x1100   // Disable BG1
+//.org 0x82D6BC8 :: dw m2_title_quick_background_pal
+//.org 0x82D6BCC :: dw m2_title_quick_foreground_pal
 
 // Initializer hacks
 
     // Make it so the first entry of the first palette isn't cleared
-    .org 0x80112BE :: bl _112be_remove_pal_blanking_quick_title
+   //.org 0x80112BE :: bl _112be_remove_pal_blanking_quick_title
 
     // Point to custom initializer routine
-    .org 0x82D6BE8 :: dw title_initializer + 1
+   //.org 0x82D6BE8 :: dw title_initializer + 1
 
 // Setup hacks:
 
     // Remove the M2's shines
-    .org 0x8011D9C :: nop :: mov r0,#1
-    .org 0x8011DD2 :: nop :: mov r0,#1
+   //.org 0x8011D9C :: nop :: mov r0,#1
+   //.org 0x8011DD2 :: nop :: mov r0,#1
     
     // Change the amount of loaded letters
-    .org 0x8011C86 :: cmp r6,#8
-    .org 0x8011E14 :: mov r6,#8
+   //.org 0x8011C86 :: cmp r6,#8
+   //.org 0x8011E14 :: mov r6,#8
     
     // Change how the letters coords are loaded
-    .org 0x8011C04 :: add sp,#-0x48
-    .org 0x8011E2E :: add sp,#0x48
-    .org 0x8011C12 :: ldmia [r0]!,r2-r4 :: stmia [r1]!,r2-r4
-    .org 0x8011C16 :: add r4,sp,#0x24
-    .org 0x8011C26 :: ldmia [r0]!,r2-r4 :: stmia [r1]!,r2-r4
+   //.org 0x8011C04 :: add sp,#-0x48
+   //.org 0x8011E2E :: add sp,#0x48
+   //.org 0x8011C12 :: ldmia [r0]!,r2-r4 :: stmia [r1]!,r2-r4
+   //.org 0x8011C16 :: add r4,sp,#0x24
+   //.org 0x8011C26 :: ldmia [r0]!,r2-r4 :: stmia [r1]!,r2-r4
     
     // Change the location of the coords
-    .org 0x8011C8C :: dw m2_title_quick_text_coords_y :: dw m2_title_quick_text_coords_x
+   //.org 0x8011C8C :: dw m2_title_quick_text_coords_y :: dw m2_title_quick_text_coords_x
 
-.org 0x801170C :: dw m2_title_text_constants
-.org 0x8011710 :: dw m2_title_text_constants + 12
-.org 0x8011714 :: dw m2_title_text_constants + 12 + 36
-.org 0x8011718 :: dw m2_title_text_constants + 12 + 36 + 36
-.org 0x801171C :: dw m2_title_text_constants + 12 + 36 + 36 + 36
-.org 0x870F580 :: .incbin "data/m2-title-background.bin"
-.org 0x8711280 :: .incbin "data/m2-title-text.bin"
-.org 0x87126CC :: .incbin "data/m2-title-background-pal-empty.bin"
-.org 0x87128EC :: .incbin "data/m2-title-background-map.bin"
-.org 0x8712E68 :: .incbin "data/m2-title-text-oam.bin"
-.org 0x8712F10 :: .incbin "data/m2-title-text-oam-entries.bin"
-.org 0x8712FB0 :: dw m2_title_text_params, m2_title_text_params + 0x6C
+//.org 0x801170C :: dw m2_title_text_constants
+//.org 0x8011710 :: dw m2_title_text_constants + 12
+//.org 0x8011714 :: dw m2_title_text_constants + 12 + 36
+//.org 0x8011718 :: dw m2_title_text_constants + 12 + 36 + 36
+//.org 0x801171C :: dw m2_title_text_constants + 12 + 36 + 36 + 36
+//.org 0x870F580 :: .incbin "data/m2-title-background.bin"
+//.org 0x8711280 :: .incbin "data/m2-title-text.bin"
+//.org 0x87126CC :: .incbin "data/m2-title-background-pal-empty.bin"
+//.org 0x87128EC :: .incbin "data/m2-title-background-map.bin"
+//.org 0x8712E68 :: .incbin "data/m2-title-text-oam.bin"
+//.org 0x8712F10 :: .incbin "data/m2-title-text-oam-entries.bin"
+//.org 0x8712FB0 :: dw m2_title_text_params, m2_title_text_params + 0x6C
 
 //==============================================================================
 // Move stuff around in order to make space for the code
@@ -2022,16 +2022,16 @@ nop
 // Cartridge choosing screen hacks
 //==============================================================================
 
-.org 0x8013C62 :: bl change_palette_needed_foreground
-.org 0x8013CAA :: bl change_palette_needed_background
+//.org 0x8013C62 :: bl change_palette_needed_foreground
+//.org 0x8013CAA :: bl change_palette_needed_background
 
-.org 0x86DD794 :: .incbin "data/m2-cartridge-tiles.bin"
-.org 0x8706994 :: .incbin "data/m2-cartridge-arrangements.bin"
+//.org 0x86DD794 :: .incbin "data/m2-cartridge-tiles.bin"
+//.org 0x8706994 :: .incbin "data/m2-cartridge-arrangements.bin"
 
-.org 0x8705794
+//.org 0x8705794
 
-m12_cartridge_palettes:
-.incbin "data/m2-cartridge-palettes.bin"
+//m12_cartridge_palettes:
+//.incbin "data/m2-cartridge-palettes.bin"
 
 //==============================================================================
 // Gas station screen hacks
@@ -2457,6 +2457,6 @@ disclaimer_map:
 .include "m2-compiled.asm"
 .include "m2-flyover.asm"
 .include "m12-intro.asm"
-.include "m2-title.asm"
+//.include "m2-title.asm"
 
 .close
