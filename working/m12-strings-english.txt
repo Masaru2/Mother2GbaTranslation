@@ -1409,7 +1409,7 @@
 ^L1412^ <[90 FF 5E][1A FF 02 00]>[02 FF][86 FF _L3959_]50[86 FF _L3960_][02 FF]@100% beef.[1D FF][00 FF]
 ^L1413^ <[90 FF 5F][1A FF 02 00]>[02 FF][86 FF _L3959_]60[86 FF _L3960_][1D FF][00 FF]
 ^L1414^ <[90 FF 60][1A FF 02 00]>[02 FF][86 FF _L3959_]60[86 FF _L3960_][1D FF][00 FF]
-^L1415^ <[90 FF 61][1A FF 02 00]>[02 FF]@The highest quality tea,[01 FF]  produced by tea expert Akihito[01 FF]  Toda,[02 FF]@who carefully selects only[01 FF]  hand-picked tea leaves.[02 FF]@Long ago, only aristocrats at a[01 FF]  king's court were allowed to[01 FF]  drink this tea.[02 FF][86 FF _L3961_]60[86 FF _L3960_][1D FF][00 FF]
+^L1415^ <[90 FF 61][1A FF 02 00]>[02 FF]@The highest quality tea,[01 FF]  produced by tea expert Mr.[01 FF]  Akihito Toda,[02 FF]@who carefully selects only[01 FF]  hand-picked tea leaves.[02 FF]@Long ago, only aristocrats at a[01 FF]  king's court were allowed to[01 FF]  drink this tea.[02 FF][86 FF _L3961_]60[86 FF _L3960_][1D FF][00 FF]
 ^L1416^ <[90 FF 62][1A FF 02 00]>[02 FF][86 FF _L3959_]80[86 FF _L3960_][02 FF]@So fresh, it's still warm![1D FF][00 FF]
 ^L1417^ <[90 FF 63][1A FF 02 00]>[02 FF]@Molokheiya is a summer[01 FF]  vegetable from Scarabi.[02 FF]@It's high in nutrients, and it has[01 FF]  a light flavor that Scarabians[01 FF]  love.[02 FF][86 FF _L3961_]80[86 FF _L3960_][1D FF][00 FF]
 ^L1418^ <[90 FF 64][1A FF 02 00]>[02 FF][86 FF _L3959_]80[86 FF _L3960_][02 FF]@There's even a slice of your[01 FF]  favorite cake![1D FF][00 FF]
