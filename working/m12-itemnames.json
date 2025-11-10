@@ -49,7 +49,7 @@
       "OffsetLocation": 11644848,
       "OldPointer": 11642572,
       "Old": "ゴヂラのバット[00 FF]",
-      "New": "T-rex's bat[00 FF]"
+      "New": "Godzilla's bat[00 FF]"
     },
     {
       "Index": 7,
@@ -987,7 +987,7 @@
       "OffsetLocation": 11645384,
       "OldPointer": 11643807,
       "Old": "うさぎごのみニンジン[00 FF]",
-      "New": "Carrot key[00 FF]"
+      "New": "Rabbits' carrot[00 FF]"
     },
     {
       "Index": 141,
@@ -1400,7 +1400,7 @@
       "OffsetLocation": 11645620,
       "OldPointer": 11644332,
       "Old": "ペテネラのくつした[00 FF]",
-      "New": "Pair`of dirty socks[00 FF]"
+      "New": "Pettenella's socks[00 FF]"
     },
     {
       "Index": 200,
@@ -1421,21 +1421,21 @@
       "OffsetLocation": 11645632,
       "OldPointer": 11644354,
       "Old": "ペンシルロケット[00 FF]",
-      "New": "Bottle rocket[00 FF]"
+      "New": "Pencil rocket[00 FF]"
     },
     {
       "Index": 203,
       "OffsetLocation": 11645636,
       "OldPointer": 11644364,
       "Old": "ペンシルロケット5[00 FF]",
-      "New": "Big bottle rocket[00 FF]"
+      "New": "Pencil rocket x5[00 FF]"
     },
     {
       "Index": 204,
       "OffsetLocation": 11645640,
       "OldPointer": 11644375,
       "Old": "ペンシルロケット20[00 FF]",
-      "New": "Multi`bottle rocket[00 FF]"
+      "New": "Pencil rocket x20[00 FF]"
     },
     {
       "Index": 205,
