@@ -518,7 +518,7 @@
       "OffsetLocation": 11645116,
       "OldPointer": 11643206,
       "Old": "やすらぎのコイン[00 FF]",
-      "New": "Coin of Peace[00 FF]"
+      "New": "Coin of serenity[00 FF]"
     },
     {
       "Index": 74,
@@ -707,7 +707,7 @@
       "OffsetLocation": 11645224,
       "OldPointer": 11643453,
       "Old": "おとなのドリンク[00 FF]",
-      "New": "Protein drink[00 FF]"
+      "New": "Grownup drink[00 FF]"
     },
     {
       "Index": 101,
