@@ -14,7 +14,7 @@
       "OffsetLocation": 11637956,
       "OldPointer": 11633495,
       "Old": "PK[12 FF][00 FF]",
-      "New": "PK[12 FF][00 FF]"
+      "New": "PK [12 FF][00 FF]"
     },
     {
       "Index": 2,
@@ -609,28 +609,28 @@
       "OffsetLocation": 11638296,
       "OldPointer": 11634156,
       "Old": "PK[12 FF]α[00 FF]",
-      "New": "PSI [12 FF] [8B][00 FF]"
+      "New": "PK [12 FF] [8B][00 FF]"
     },
     {
       "Index": 87,
       "OffsetLocation": 11638300,
       "OldPointer": 11634163,
       "Old": "PK[12 FF]β[00 FF]",
-      "New": "PSI [12 FF] [8C][00 FF]"
+      "New": "PK [12 FF] [8C][00 FF]"
     },
     {
       "Index": 88,
       "OffsetLocation": 11638304,
       "OldPointer": 11634170,
       "Old": "PK[12 FF]γ[00 FF]",
-      "New": "PSI [12 FF] [8D][00 FF]"
+      "New": "PK [12 FF] [8D][00 FF]"
     },
     {
       "Index": 89,
       "OffsetLocation": 11638308,
       "OldPointer": 11634177,
       "Old": "PK[12 FF]Ω[00 FF]",
-      "New": "PSI [12 FF] [8F][00 FF]"
+      "New": "PK [12 FF] [8F][00 FF]"
     },
     {
       "Index": 90,
@@ -644,28 +644,28 @@
       "OffsetLocation": 11638316,
       "OldPointer": 11634187,
       "Old": "PKファイアーα[00 FF]",
-      "New": "PSI Fire [8B][00 FF]"
+      "New": "PK Fire [8B][00 FF]"
     },
     {
       "Index": 92,
       "OffsetLocation": 11638320,
       "OldPointer": 11634197,
       "Old": "PKファイアーβ[00 FF]",
-      "New": "PSI Fire [8C][00 FF]"
+      "New": "PK Fire [8C][00 FF]"
     },
     {
       "Index": 93,
       "OffsetLocation": 11638324,
       "OldPointer": 11634207,
       "Old": "PKファイアーγ[00 FF]",
-      "New": "PSI Fire [8D][00 FF]"
+      "New": "PK Fire [8D][00 FF]"
     },
     {
       "Index": 94,
       "OffsetLocation": 11638328,
       "OldPointer": 11634217,
       "Old": "PKファイアーΩ[00 FF]",
-      "New": "PSI Fire [8F][00 FF]"
+      "New": "PK Fire [8F][00 FF]"
     },
     {
       "Index": 95,
@@ -679,28 +679,28 @@
       "OffsetLocation": 11638336,
       "OldPointer": 11634230,
       "Old": "PKフリーズα[00 FF]",
-      "New": "PSI Freeze [8B][00 FF]"
+      "New": "PK Freeze [8B][00 FF]"
     },
     {
       "Index": 97,
       "OffsetLocation": 11638340,
       "OldPointer": 11634239,
       "Old": "PKフリーズβ[00 FF]",
-      "New": "PSI Freeze [8C][00 FF]"
+      "New": "PK Freeze [8C][00 FF]"
     },
     {
       "Index": 98,
       "OffsetLocation": 11638344,
       "OldPointer": 11634248,
       "Old": "PKフリーズγ[00 FF]",
-      "New": "PSI Freeze [8D][00 FF]"
+      "New": "PK Freeze [8D][00 FF]"
     },
     {
       "Index": 99,
       "OffsetLocation": 11638348,
       "OldPointer": 11634257,
       "Old": "PKフリーズΩ[00 FF]",
-      "New": "PSI Freeze [8F][00 FF]"
+      "New": "PK Freeze [8F][00 FF]"
     },
     {
       "Index": 100,
@@ -714,28 +714,28 @@
       "OffsetLocation": 11638356,
       "OldPointer": 11634269,
       "Old": "PKサンダーα[00 FF]",
-      "New": "PSI Thunder [8B][00 FF]"
+      "New": "PK Thunder [8B][00 FF]"
     },
     {
       "Index": 102,
       "OffsetLocation": 11638360,
       "OldPointer": 11634278,
       "Old": "PKサンダーβ[00 FF]",
-      "New": "PSI Thunder [8C][00 FF]"
+      "New": "PK Thunder [8C][00 FF]"
     },
     {
       "Index": 103,
       "OffsetLocation": 11638364,
       "OldPointer": 11634287,
       "Old": "PKサンダーγ[00 FF]",
-      "New": "PSI Thunder [8D][00 FF]"
+      "New": "PK Thunder [8D][00 FF]"
     },
     {
       "Index": 104,
       "OffsetLocation": 11638368,
       "OldPointer": 11634296,
       "Old": "PKサンダーΩ[00 FF]",
-      "New": "PSI Thunder [8F][00 FF]"
+      "New": "PK Thunder [8F][00 FF]"
     },
     {
       "Index": 105,
@@ -749,28 +749,28 @@
       "OffsetLocation": 11638376,
       "OldPointer": 11634308,
       "Old": "PKフラッシュα[00 FF]",
-      "New": "PSI Flash [8B][00 FF]"
+      "New": "PK Flash [8B][00 FF]"
     },
     {
       "Index": 107,
       "OffsetLocation": 11638380,
       "OldPointer": 11634318,
       "Old": "PKフラッシュβ[00 FF]",
-      "New": "PSI Flash [8C][00 FF]"
+      "New": "PK Flash [8C][00 FF]"
     },
     {
       "Index": 108,
       "OffsetLocation": 11638384,
       "OldPointer": 11634328,
       "Old": "PKフラッシュγ[00 FF]",
-      "New": "PSI Flash [8D][00 FF]"
+      "New": "PK Flash [8D][00 FF]"
     },
     {
       "Index": 109,
       "OffsetLocation": 11638388,
       "OldPointer": 11634338,
       "Old": "PKフラッシュΩ[00 FF]",
-      "New": "PSI Flash [8F][00 FF]"
+      "New": "PK Flash [8F][00 FF]"
     },
     {
       "Index": 110,
@@ -784,14 +784,14 @@
       "OffsetLocation": 11638396,
       "OldPointer": 11634351,
       "Old": "PKスターストームα[00 FF]",
-      "New": "PSI Starstorm [8B][00 FF]"
+      "New": "PK Starstorm [8B][00 FF]"
     },
     {
       "Index": 112,
       "OffsetLocation": 11638400,
       "OldPointer": 11634363,
       "Old": "PKスターストームΩ[00 FF]",
-      "New": "PSI Starstorm [8F][00 FF]"
+      "New": "PK Starstorm [8F][00 FF]"
     },
     {
       "Index": 113,
