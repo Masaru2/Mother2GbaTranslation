@@ -2719,7 +2719,7 @@
 ^L2880^@Healthful[01 FF]  and dandy![1D FF][7C FF][00 FF]
 ^L2884^[7B FF][1C FF 02 00 _L5058_]@I'm[01 FF]  Dr. Saturn.[01 FF]  Zoom![02 FF]@and I can[01 FF]  repair[01 FF]  your body.[02 FF]@Boing![02 FF]@Do you[01 FF]  want me[02 FF]@to operate[01 FF]  on you?[01 FF]  Ding?[22 FF][7C FF][03 FF 00 00][04 FF _L5059_][05 FF _L5060_]^L5060^[7B FF]@Are you[01 FF]  kay-o?[02 FF]@If you[01 FF]  all right,[01 FF]  that's great.[02 FF]@zoomer![1D FF][7C FF][00 FF]
 ^L2885^[08 FF F8 00][86 FF _L4325_][09 FF F8 00][00 FF]
-^L2886^@When going[01 FF]  gets tough...[02 FF]@Tough[01 FF]  gets going.[1D FF][7C FF][00 FF]
+^L2886^@When going[01 FF]  gets tough...[02 FF]@Tough gets[01 FF]  going.[1D FF][7C FF][00 FF]
 ^L2887^@Impressed![02 FF]@Someday,[01 FF]  Sometime[01 FF]  We help you.[1D FF][7C FF][00 FF]
 ^L2888^@Zoom![1D FF][7C FF][00 FF]
 ^L2889^@Delicious.[01 FF][8D FF 01 00][87 FF]  [90 FF 00][1A FF 01 00]![02 FF]@You[01 FF]  good name.[02 FF]@We no name![01 FF]  Boing![02 FF]@...All have[01 FF]  same name![1D FF][7C FF][00 FF]
