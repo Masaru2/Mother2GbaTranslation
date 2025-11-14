@@ -490,7 +490,7 @@
       "OffsetLocation": 11632636,
       "OldPointer": 11630725,
       "Old": " へんしん[00 FF]",
-      "New": "[5F FF 08]Mirror[00 FF]"
+      "New": "[5F FF 08]Transform[00 FF]"
     },
     {
       "Index": 70,
