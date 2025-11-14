@@ -1770,16 +1770,6 @@ nop
 .org 0x82D92C4 :: .incbin "data/cast_roll_star_master_data.bin"
 
 //==============================================================================
-// "THE END...?" hacks
-//==============================================================================
-.org 0x88B5AA0 :: .incbin "data/the_end_graphics.bin"
-.org 0x88B62A0 :: .incbin "data/the_end_palette.bin"
-.org 0x88B62C0 :: .incbin "data/the_end_arrangements_frame0.bin"
-
-//Add an extra event for the "?" in "THE END..."
-.org 0x80A5F5C :: bl extra_event_end_question_mark
-
-//==============================================================================
 // M2 Title hacks
 //==============================================================================
 
@@ -2266,10 +2256,6 @@ m2_credits_arrangements:
 .align 2
 m2_credits_extras:
 .incbin "data/m2-credits-extra-data.bin"
-
-.align 4
-m2_end_frame1:
-.incbin "data/the_end_arrangements_frame1.bin"
 
 .align 4
 optimized_byte_4bpp_to_1bpp_table:
