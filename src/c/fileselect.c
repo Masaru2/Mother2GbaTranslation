@@ -729,7 +729,7 @@ void text_flavour_setup(char String[], int selector)
     char Mint[] = "Mint";
     char Strawberry[] = "Strawberry";
     char Banana[] = "Banana";
-    char Peanut[] = "Peanut";
+    char Peanut[] = "Nut";
     switch(selector)
     {
         case 0:
