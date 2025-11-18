@@ -427,7 +427,7 @@
       "OffsetLocation": 11645064,
       "OldPointer": 11643087,
       "Old": "てんしのうでわ[00 FF]",
-      "New": "Angel's band[00 FF]"
+      "New": "Angel band[00 FF]"
     },
     {
       "Index": 61,
@@ -672,7 +672,7 @@
       "OffsetLocation": 11645204,
       "OldPointer": 11643403,
       "Old": "カロリーブロック[00 FF]",
-      "New": "Calorie stick[00 FF]"
+      "New": "Energy bar[00 FF]"
     },
     {
       "Index": 96,
@@ -826,14 +826,14 @@
       "OffsetLocation": 11645292,
       "OldPointer": 11643613,
       "Old": "みず[00 FF]",
-      "New": "Bottle of water[00 FF]"
+      "New": "Bottled water[00 FF]"
     },
     {
       "Index": 118,
       "OffsetLocation": 11645296,
       "OldPointer": 11643617,
       "Old": "たかいみず[00 FF]",
-      "New": "Bottle of DXwater[00 FF]"
+      "New": "Bottled water DX[00 FF]"
     },
     {
       "Index": 119,
@@ -910,7 +910,7 @@
       "OffsetLocation": 11645340,
       "OldPointer": 11643711,
       "Old": "コンデンスミルク[00 FF]",
-      "New": "Carton of cream[00 FF]"
+      "New": "Carton of milk[00 FF]"
     },
     {
       "Index": 130,
@@ -1477,7 +1477,7 @@
       "OffsetLocation": 11645664,
       "OldPointer": 11644427,
       "Old": "メテオニウム[00 FF]",
-      "New": "Meteornium[00 FF]"
+      "New": "Meteonium[00 FF]"
     },
     {
       "Index": 211,

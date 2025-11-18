@@ -63,21 +63,21 @@
       "OffsetLocation": 11641620,
       "OldPointer": 11639575,
       "Old": "いけないキノコ[00 FF]",
-      "New": "Struttin' Evil Mushroom[00 FF]"
+      "New": "Wanderin' Evil Mushroom[00 FF]"
     },
     {
       "Index": 9,
       "OffsetLocation": 11641624,
       "OldPointer": 11639584,
       "Old": "あるくめ[00 FF]",
-      "New": "Mobile Sprout[00 FF]"
+      "New": "Walking Sprout[00 FF]"
     },
     {
       "Index": 10,
       "OffsetLocation": 11641628,
       "OldPointer": 11639590,
       "Old": "つよいあるくめ[00 FF]",
-      "New": "Tough Mobile Sprout[00 FF]"
+      "New": "Tough Walking Sprout[00 FF]"
     },
     {
       "Index": 11,
@@ -154,7 +154,7 @@
       "OffsetLocation": 11641672,
       "OldPointer": 11639695,
       "Old": "♪のあくま[00 FF]",
-      "New": "|'s Nightmare[00 FF]"
+      "New": "|'s Demon[00 FF]"
     },
     {
       "Index": 22,
@@ -252,14 +252,14 @@
       "OffsetLocation": 11641728,
       "OldPointer": 11639824,
       "Old": "カニメザウルス[00 FF]",
-      "New": "Wetnosaur[00 FF]"
+      "New": "Googlysaurus[00 FF]"
     },
     {
       "Index": 36,
       "OffsetLocation": 11641732,
       "OldPointer": 11639833,
       "Old": "ハラペコザウルス[00 FF]",
-      "New": "Chomposaur[00 FF]"
+      "New": "Hungrosaurus[00 FF]"
     },
     {
       "Index": 37,
@@ -399,7 +399,7 @@
       "OffsetLocation": 11641812,
       "OldPointer": 11639998,
       "Old": "まきへびドライ[00 FF]",
-      "New": "Thirsty Coil Snake[00 FF]"
+      "New": "Dry Coil Snake[00 FF]"
     },
     {
       "Index": 57,
@@ -637,7 +637,7 @@
       "OffsetLocation": 11641948,
       "OldPointer": 11640305,
       "Old": "ちょうねんじゅのめ[00 FF]",
-      "New": "Trillionage Sprout[00 FF]"
+      "New": "Trillion Year Sprout[00 FF]"
     },
     {
       "Index": 91,
@@ -714,7 +714,7 @@
       "OffsetLocation": 11641992,
       "OldPointer": 11640402,
       "Old": "てんぐどの[00 FF]",
-      "New": "Tangoo[00 FF]"
+      "New": "Tengu[00 FF]"
     },
     {
       "Index": 102,
@@ -868,7 +868,7 @@
       "OffsetLocation": 11642080,
       "OldPointer": 11640611,
       "Old": "ビッグフット[00 FF]",
-      "New": "Cave Boy[00 FF]"
+      "New": "Bigfoot[00 FF]"
     },
     {
       "Index": 124,
@@ -966,7 +966,7 @@
       "OffsetLocation": 11642136,
       "OldPointer": 11640749,
       "Old": "マニマニのあくま[00 FF]",
-      "New": "Evil Mani-Mani[00 FF]"
+      "New": "Mani Mani Devil[00 FF]"
     },
     {
       "Index": 138,
@@ -1043,7 +1043,7 @@
       "OffsetLocation": 11642180,
       "OldPointer": 11640854,
       "Old": "おにラフレシア[00 FF]",
-      "New": "Demonic Petunia[00 FF]"
+      "New": "Demonic Rafflesia[00 FF]"
     },
     {
       "Index": 149,
@@ -1085,21 +1085,21 @@
       "OffsetLocation": 11642204,
       "OldPointer": 11640905,
       "Old": "プレーンわに[00 FF]",
-      "New": "Plain Crocodile[00 FF]"
+      "New": "Plain Alligator[00 FF]"
     },
     {
       "Index": 155,
       "OffsetLocation": 11642208,
       "OldPointer": 11640913,
       "Old": "つよいわに[00 FF]",
-      "New": "Strong Crocodile[00 FF]"
+      "New": "Strong Alligator[00 FF]"
     },
     {
       "Index": 156,
       "OffsetLocation": 11642212,
       "OldPointer": 11640920,
       "Old": "キツイわに[00 FF]",
-      "New": "Hard Crocodile[00 FF]"
+      "New": "Hard Alligator[00 FF]"
     },
     {
       "Index": 157,
@@ -1211,7 +1211,7 @@
       "OffsetLocation": 11642276,
       "OldPointer": 11641056,
       "Old": "♪のあくま[00 FF]",
-      "New": "|'s Nightmare[00 FF]"
+      "New": "|'s Demon[00 FF]"
     },
     {
       "Index": 173,
@@ -1302,7 +1302,7 @@
       "OffsetLocation": 11642328,
       "OldPointer": 11641170,
       "Old": "スーパースターマン[00 FF]",
-      "New": "Starman Super[00 FF]"
+      "New": "Super Starman[00 FF]"
     },
     {
       "Index": 186,
@@ -1344,7 +1344,7 @@
       "OffsetLocation": 11642352,
       "OldPointer": 11641232,
       "Old": "ちょうねんじゅのめ[00 FF]",
-      "New": "Trillionage Sprout[00 FF]"
+      "New": "Trillion Year Sprout[00 FF]"
     },
     {
       "Index": 192,
@@ -1379,7 +1379,7 @@
       "OffsetLocation": 11642372,
       "OldPointer": 11641280,
       "Old": "てんぐどの[00 FF]",
-      "New": "Tangoo[00 FF]"
+      "New": "Tengu[00 FF]"
     },
     {
       "Index": 197,
@@ -1428,7 +1428,7 @@
       "OffsetLocation": 11642400,
       "OldPointer": 11641343,
       "Old": "マニマニのあくま[00 FF]",
-      "New": "Evil Mani-Mani[00 FF]"
+      "New": "Mani Mani Devil[00 FF]"
     },
     {
       "Index": 204,
@@ -1491,7 +1491,7 @@
       "OffsetLocation": 11642436,
       "OldPointer": 11641425,
       "Old": "ビッグフット[00 FF]",
-      "New": "Cave Boy[00 FF]"
+      "New": "Bigfoot[00 FF]"
     },
     {
       "Index": 213,
@@ -1561,7 +1561,7 @@
       "OffsetLocation": 11642476,
       "OldPointer": 11641505,
       "Old": "どろつきゾンビ[00 FF]",
-      "New": "Farm Zombie[00 FF]"
+      "New": "Muddy Zombie[00 FF]"
     },
     {
       "Index": 223,
