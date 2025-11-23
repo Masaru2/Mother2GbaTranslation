@@ -446,7 +446,7 @@ str     r2,[sp]
 mov     r2,0xFE
 lsl     r2,r2,1
 add     r0,r6,r2
-mov     r1,0x71
+mov     r1,0x6F
 mov     r2,8
 bl      print_string
 
@@ -457,7 +457,7 @@ bl      print_string
 .org 0x80C23AA :: lsr r2,r2,0xD                             // tiles-to-pixels
 .org 0x80C23AE :: lsr r6,r3,0xD                             // tiles-to-pixels
 .org 0x80C23CE :: bl c239c_print_psi :: nop :: nop :: nop
-.org 0x80C23DA :: add r4,17                                 // pixel width of "PSI "
+.org 0x80C23DA :: add r4,15                                 // pixel width of "PSI "
 .org 0x80C23F0 :: bl printstr_hlight_pixels_buffer             // print rockin'
 .org 0x80C2402 :: mov r0,3 :: lsl r0,r0,0x10                // pixel width of space
 .org 0x80C242E :: mov r0,0x14                               // new PSI name entry length
@@ -1322,8 +1322,8 @@ nop
 //---------------------------------------------------------
 // PSI Rockin in battle text
 //---------------------------------------------------------
-.org 0x80D3984 :: cmp r0,#3 //Now "PSI " is 4 letters long, not 2
-.org 0x80D399E :: sub r0,#4 //Subtract from r0 the length of "PSI "
+.org 0x80D3984 :: cmp r0,#2 //Now "PSI " is 4 letters long, not 2
+.org 0x80D399E :: sub r0,#3 //Subtract from r0 the length of "PSI "
 
 //---------------------------------------------------------
 // Flyover hacks

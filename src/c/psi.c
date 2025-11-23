@@ -135,7 +135,7 @@ void psiPrint_buffer(byte value, WINDOW* window, bool printPSILine, PSIPrintInfo
         if(PSIID == 1)
         {
             str = (byte*)(m2_ness_name + (7 * 4) + (8 * 2)); //Go to Rockin's name
-            print_string_in_buffer(str, 0x71, ((printInfo->YPrinting) + window->window_y) << 3, (byte*)(OVERWORLD_BUFFER - ((*tile_offset) * TILESET_OFFSET_BUFFER_MULTIPLIER)));
+            print_string_in_buffer(str, 0x6F, ((printInfo->YPrinting) + window->window_y) << 3, (byte*)(OVERWORLD_BUFFER - ((*tile_offset) * TILESET_OFFSET_BUFFER_MULTIPLIER)));
         }
     }
     
